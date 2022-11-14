@@ -15,7 +15,7 @@ class CategoriesRepository implements ICategoriesRepository {
       name,
       description,
       created_at: new Date(),
-    })
+    });
 
     this.categories.push(category);
   }
@@ -30,4 +30,4 @@ class CategoriesRepository implements ICategoriesRepository {
   }
 }
 
-export { CategoriesRepository }
+export { CategoriesRepository };
