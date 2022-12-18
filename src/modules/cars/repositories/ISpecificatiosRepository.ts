@@ -10,6 +10,7 @@ interface ISpecificationsRpository{
 
   create({ name, description}: ICreateSpecificationDTO): void;
   findByName(name: String): Specification;
+  
 }
 
 export { ICreateSpecificationDTO, ISpecificationsRpository };

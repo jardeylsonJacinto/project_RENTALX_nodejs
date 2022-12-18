@@ -1,8 +1,6 @@
 import { Category } from "../../model/category";
 import { ICategoriesRepository } from "../../repositories/ICategoriesRepository";
 
-
-
 class ListCategoriesUserCase {
   constructor(private categoriesRepository: ICategoriesRepository){}
 
